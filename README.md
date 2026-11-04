@@ -10,6 +10,7 @@ A modern, high-performance portfolio for **Yokeshwaran**, 3rd-year B.E. Computer
 - **Ambition**: Software Engineer / Full-Stack Developer
 - **Email**: yokiw803@gmail.com
 - **GitHub**: [github.com/yokiw803-hash](https://github.com/yokiw803-hash)
+- **LinkedIn**: [linkedin.com/in/yokeshwaran-s-629030301](https://www.linkedin.com/in/yokeshwaran-s-629030301)
 - **Location**: Chennai, Tamil Nadu, India
 
 ---

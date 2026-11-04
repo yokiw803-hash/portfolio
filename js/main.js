@@ -601,6 +601,10 @@
         openResumeModal();
       } else if (action === 'copy-email') {
         copyEmailAddress();
+      } else if (action === 'linkedin') {
+        window.open('https://www.linkedin.com/in/yokeshwaran-s-629030301', '_blank', 'noopener,noreferrer');
+      } else if (action === 'github') {
+        window.open('https://github.com/yokiw803-hash', '_blank', 'noopener,noreferrer');
       } else if (action === 'sound-toggle') {
         sound.toggle();
       }
