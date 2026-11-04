@@ -1473,6 +1473,97 @@
   padding-bottom: 0.35rem;
 }
 
+/* Print / PDF Stylesheet */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #111827 !important;
+    font-size: 11pt !important;
+  }
+
+  .navbar,
+  .site-footer,
+  .modal-overlay:not(#resume-modal),
+  .modal-close-btn,
+  #print-resume-btn,
+  a[href="resume.html"],
+  .toast-container,
+  .cmd-palette-overlay,
+  .custom-cursor-dot,
+  .custom-cursor-outline,
+  main {
+    display: none !important;
+  }
+
+  .modal-overlay#resume-modal {
+    position: static !important;
+    display: block !important;
+    background: transparent !important;
+    padding: 0 !important;
+  }
+
+  .modal-container {
+    max-width: 100% !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+
+  .resume-paper {
+    background: #ffffff !important;
+    color: #111827 !important;
+    padding: 0 !important;
+  }
+
+  .resume-name {
+    color: #0f172a !important;
+    font-size: 22pt !important;
+  }
+
+  .resume-role {
+    color: #3b82f6 !important;
+    font-size: 11pt !important;
+  }
+
+  .resume-header {
+    border-bottom: 2pt solid #0f172a !important;
+    padding-bottom: 8pt !important;
+    margin-bottom: 12pt !important;
+  }
+
+  .resume-contact-bar,
+  .resume-contact-bar a,
+  .resume-contact-bar span {
+    color: #475569 !important;
+    font-size: 9.5pt !important;
+  }
+
+  .resume-section-heading {
+    color: #0f172a !important;
+    font-size: 12pt !important;
+    border-bottom: 1pt solid #cbd5e1 !important;
+    margin: 14pt 0 6pt 0 !important;
+  }
+
+  .modal-text,
+  p,
+  li,
+  div,
+  span {
+    color: #334155 !important;
+  }
+
+  .status-ongoing-badge {
+    display: none !important;
+  }
+
+  .resume-project-item {
+    page-break-inside: avoid;
+    margin-bottom: 10pt !important;
+  }
+}
+
 /* --------------------------------------------------------------------------
    11. FOOTER
    -------------------------------------------------------------------------- */

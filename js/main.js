@@ -317,68 +317,68 @@
   // --- PROJECT DATA & CASE STUDY MODAL ---
   const projectDatabase = {
     'groot-ai': {
-      title: 'Groot AI - Intelligent Generative AI Assistant',
-      badge: 'Generative AI & Modern Web',
+      title: 'Groot — Local Personal AI Assistant',
+      badge: 'Local AI & Automation',
       image: 'assets/images/project-groot.jpg',
-      headline: 'Next-generation AI conversational assistant with prompt intelligence and code assistance.',
+      headline: 'Privacy-focused local personal AI assistant concept designed to run local models, retain memories, and support computer automation.',
       metrics: {
-        rps: 'LLM API Integration',
-        latency: '< 450ms TTFT',
-        uptime: 'Supabase Persistent'
+        rps: 'Local Ollama Engine',
+        latency: 'Offline Inference',
+        uptime: 'Private & Local-First'
       },
-      tags: ['React', 'Next.js', 'Python', 'Node.js', 'Express.js', 'Supabase', 'AI/LLM API'],
-      overview: 'Groot AI is an intelligent conversational agent engineered by Yokeshwaran to assist students and developers with code debugging, concept summarization, and query resolution. Built with Next.js, Express, and Supabase for real-time history and user sessions.',
-      challenges: 'Handling streaming AI responses smoothly in the frontend interface without jank, and structuring secure API endpoints with Supabase for persistent conversation memory.',
+      tags: ['Python', 'Ollama', 'Qwen 2.5', 'JSON', 'Regex', 'OS', 'Subprocess'],
+      overview: 'Groot is a privacy-focused local personal AI assistant concept designed to run local models (Qwen 2.5 via Ollama), retain user memories, and support computer-command automation without external API dependencies.',
+      challenges: 'Optimizing local prompt evaluation pipelines, structuring persistent JSON memory schemas, and building safe OS subprocess execution hooks.',
       architecture: [
-        'Frontend Interface: Modern Next.js application with interactive prompt suggestions and markdown syntax highlighting.',
-        'Backend Service: Node.js & Express.js proxy with Python AI helper scripts for request sanitization and prompt token optimization.',
-        'Data Layer: Supabase PostgreSQL database managing conversation history and user session persistence.',
-        'Cloud & Security: Environment-based API key safety with CORS security.'
+        'Local LLM Inference: Powered by Ollama running Qwen 2.5 locally for zero-latency, private offline intelligence.',
+        'Persistent Memory: JSON-based storage maintaining user context, interactions, and system preferences.',
+        'Command Automation: Python OS and Subprocess modules executing safe operating system commands and routines.',
+        'Voice Pipeline: Planned offline voice input and text-to-speech integration for natural conversational interaction.'
       ],
-      liveUrl: 'https://github.com',
-      githubUrl: 'https://github.com'
+      liveUrl: 'https://github.com/yokiw803-hash/portfolio',
+      githubUrl: 'https://github.com/yokiw803-hash/portfolio'
     },
     'typeverse': {
-      title: 'TypeVerse - Type Faster. Think Smarter.',
-      badge: 'Frontend Engineering & Real-Time Stats',
+      title: 'TypeVerse — Real-Time Typing Platform',
+      badge: 'Interactive Web & Real-Time Stats',
       image: 'assets/images/project-typeverse.png',
-      headline: 'Unlock your true typing potential with TypeVerse. Scientifically designed challenges, real-time feedback, and beautiful visualizations.',
+      headline: 'Typing-practice platform planned around difficulty levels, daily challenges, progress tracking, multiplayer races, and leaderboards.',
       metrics: {
         rps: '150+ WPM Tracked',
-        latency: '99% Accuracy',
-        uptime: '#1 Leaderboard Rank'
+        latency: 'Live Telemetry',
+        uptime: 'Supabase Real-Time'
       },
-      tags: ['React', 'TypeScript', 'Next.js', 'HTML5/CSS3', 'Real-time Telemetry', 'State Architecture'],
-      overview: 'TypeVerse is an immersive, high-speed typing platform designed to help users type faster and think smarter. Featuring scientifically designed challenges, precision keystroke feedback, and beautiful analytics visualizations.',
-      challenges: 'Calculating exact millisecond-accurate keystroke timings, error metrics, and high-frequency WPM curves while maintaining a zero-latency responsive typing interface.',
+      tags: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Supabase'],
+      overview: 'TypeVerse is a typing-practice platform planned around difficulty levels, daily challenges, progress tracking, multiplayer races, and leaderboards. Developed to provide an engaging, responsive learning experience with gamification.',
+      challenges: 'Calculating millisecond-accurate keystroke timings and handling concurrent multiplayer state synchronization using Supabase real-time channels.',
       architecture: [
-        'Real-time Telemetry: Custom state reducer logging live keystrokes with precision microsecond timestamps.',
-        'Visualizations: Live responsive WPM charts and accuracy progression bars.',
-        'Responsive UI: Dark modern aesthetic with custom glassmorphic cards and keyboard layout.'
+        'Frontend Application: Built with Next.js, React, and TypeScript with sleek Tailwind CSS styling.',
+        'Telemetry Engine: Client-side accuracy calculations, WPM curve analytics, and keystroke error detection.',
+        'Real-Time Backend: Supabase database and real-time subscriptions powering multiplayer races, daily challenges, and leaderboards.'
       ],
-      liveUrl: 'https://github.com',
-      githubUrl: 'https://github.com'
+      liveUrl: 'https://github.com/yokiw803-hash/portfolio',
+      githubUrl: 'https://github.com/yokiw803-hash/portfolio'
     },
     'careerpilot': {
-      title: 'CareerPilot - Master Your Interview Skills',
-      badge: 'AI-Powered Interview Coach & Full-Stack',
+      title: 'CareerPilot — AI Career Preparation Platform',
+      badge: 'AI Career Prep & Candidate Journey',
       image: 'assets/images/project-careerpilot.png',
-      headline: 'AI-powered interview coach that provides real-time feedback, helps candidates practice with realistic scenarios, and boosts confidence.',
+      headline: 'AI-assisted career-preparation platform planned for resume review, mock interviews, coding assessments, and personalized feedback.',
       metrics: {
-        rps: 'AI Interviewer Online',
-        latency: 'Real-Time Feedback',
-        uptime: 'Realistic Scenarios'
+        rps: 'Gemini AI Evaluator',
+        latency: 'Role-Based Dashboards',
+        uptime: 'ATS Scoring Engine'
       },
-      tags: ['Next.js', 'React', 'Node.js', 'Express.js', 'MySQL', 'Supabase', 'AI Audio Coach'],
-      overview: 'CareerPilot is an AI-powered interview coaching platform designed to help engineering students and job candidates master technical and behavioral interviews. It provides live AI interviewer simulations, instant feedback, and realistic interview drills.',
-      challenges: 'Synchronizing real-time AI evaluation feedback with audio prompts and structuring persistent relational interview history across MySQL and Supabase.',
+      tags: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS', 'Supabase', 'Gemini API'],
+      overview: 'CareerPilot is an AI-assisted career-preparation platform planned for resume review, mock interviews, coding assessments, and personalized feedback for engineering students and graduates.',
+      challenges: 'Structuring role-based access control across multiple personas (candidate, recruiter, admin) and orchestrating ATS resume scoring pipelines with Gemini API.',
       architecture: [
-        'AI Interview Simulation: Real-time conversational interview coach evaluating speech, prompt answers, and domain knowledge.',
-        'Backend Engine: Express.js REST API handling interview scenario selection and feedback scoring.',
-        'Data Persistence: MySQL and Supabase databases storing candidate session logs, questions, and progress analytics.'
+        'Dashboards & Workflows: Role-based dashboards for candidates, recruiters, and administrators with secure workflows.',
+        'Auth & File Storage: Supabase authentication paired with secure storage buckets for candidate resume uploads.',
+        'AI Evaluation Engine: Powered by Gemini API to provide automated ATS-oriented resume scoring and interview readiness feedback.'
       ],
-      liveUrl: 'https://github.com',
-      githubUrl: 'https://github.com'
+      liveUrl: 'https://github.com/yokiw803-hash/portfolio',
+      githubUrl: 'https://github.com/yokiw803-hash/portfolio'
     }
   };
 

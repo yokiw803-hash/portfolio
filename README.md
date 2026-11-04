@@ -1,42 +1,51 @@
-# Yokeshwaran — Software Engineer & Full-Stack Developer Portfolio
+# YOKESHWARAN S — Software Engineer & Full-Stack Developer Portfolio
 
-A modern, high-performance portfolio for **Yokeshwaran**, 3rd-year B.E. Computer Science and Engineering student at **Prince Dr. K. Vasudevan College of Engineering and Technology**, Chennai.
+A modern, high-performance developer portfolio and resume for **Yokeshwaran S**, Computer Science and Engineering undergraduate at **Prince Dr. K. Vasudevan College of Engineering and Technology**, Chennai.
 
 ## 👤 Profile Overview
 
-- **Name**: Yokeshwaran
-- **Education**: 3rd Year B.E. Computer Science and Engineering
+- **Name**: YOKESHWARAN S
+- **Role**: Computer Science & Engineering Student | Software Development Intern
+- **Degree**: Bachelor of Engineering in Computer Science and Engineering (2024 — 2028)
 - **Institution**: Prince Dr. K. Vasudevan College of Engineering and Technology, Chennai
-- **Ambition**: Software Engineer / Full-Stack Developer
-- **Email**: yokiw803@gmail.com
+- **Academics**: CGPA: 7.1 / 10
+- **Leadership**: Member, DevOps Club (College Technical Club)
+- **Email**: [yokiw803@gmail.com](mailto:yokiw803@gmail.com)
 - **GitHub**: [github.com/yokiw803-hash](https://github.com/yokiw803-hash)
 - **LinkedIn**: [linkedin.com/in/yokeshwaran-s-629030301](https://www.linkedin.com/in/yokeshwaran-s-629030301)
+- **Resume Page**: [resume.html](resume.html)
 - **Location**: Chennai, Tamil Nadu, India
 
 ---
 
-## 🛠️ Tech Stack & Skills
+## 🛠️ Technical Skills
 
-- **Programming Languages**: Python, Java, JavaScript (ESNext), TypeScript, SQL, HTML5, CSS3
-- **Frontend**: React, Next.js, Modern Responsive CSS
-- **Backend & APIs**: Node.js, Express.js, RESTful APIs
-- **Full Responsive Design**: Seamlessly engineered for all screen sizes (320px foldables & smartphones, tablets, laptops, and ultra-wide desktop monitors).
-- **Mobile Experience**: Touch-friendly hamburger drawer (☰/✕), horizontally scrollable sandbox code tabs, wrapped action groups, and zero horizontal overflow.
-- **Cloud & Tools**: AWS (Foundational Knowledge), Git, GitHub
+- **Languages**: Java, Python, JavaScript, TypeScript, C, HTML, CSS, SQL
+- **Frameworks & Tools**: Next.js, Node.js, Express.js, React, Tailwind CSS, Ollama
+- **Databases & Services**: MongoDB, MySQL, Supabase (PostgreSQL)
+- **Interests**: Full-Stack Development, Backend Systems, Local AI Applications, DevOps
 
 ---
 
-## 🚀 Featured Flagship Projects *(Works Actively Ongoing)*
+## 🚀 Selected Projects *(Actively in Development)*
 
-1. **Groot AI** *(Ongoing Work)*:
-   - Intelligent generative AI conversational assistant with prompt suggestions and code assistance.
-   - Stack: React, Next.js, Python, Node.js, Express, Supabase.
-2. **TypeVerse** *(Ongoing Work)*:
-   - *"Type Faster. Think Smarter."* — High-speed typing platform with 150+ WPM tracking, 99% accuracy curves, and interactive visualizations.
-   - Stack: React, TypeScript, Next.js, CSS3, Real-time Keystroke Telemetry.
-3. **CareerPilot** *(Ongoing Work)*:
-   - *"Master Your Interview Skills"* — AI-powered interview coach providing real-time feedback and realistic practice scenarios.
-   - Stack: Next.js, Express.js, MySQL, Supabase, Node.js, AI Audio Coach.
+1. **CareerPilot**:
+   - *AI-assisted career-preparation platform planned for resume review, mock interviews, coding assessments, and personalized feedback.*
+   - **Stack**: Next.js, React, TypeScript, Tailwind CSS, Supabase, Gemini API
+   - Designing role-based workflows for candidates, recruiters, and administrators.
+   - Planning ATS-oriented resume scoring and interview-readiness evaluation.
+
+2. **TypeVerse**:
+   - *Typing-practice platform planned around difficulty levels, daily challenges, progress tracking, multiplayer races, and leaderboards.*
+   - **Stack**: Next.js, React, TypeScript, Tailwind CSS, Supabase
+   - Gamified responsive learning experience with real-time Supabase channels.
+   - Comprehensive telemetry tracking typing speed (WPM) and accuracy.
+
+3. **Groot**:
+   - *Privacy-focused local personal AI assistant concept designed to run local models, retain user memories, and support computer automation.*
+   - **Stack**: Python, Ollama, Qwen 2.5, JSON, Regex, OS, Subprocess
+   - Offline AI workflows with JSON-based memory retention without external cloud APIs.
+   - Safe OS command execution hooks with planned offline voice I/O.
 
 ---
 

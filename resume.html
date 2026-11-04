@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume — Yokeshwaran S | Computer Science Undergraduate</title>
+  <meta name="description" content="Resume of Yokeshwaran S, Computer Science and Engineering student at Prince Dr. K. Vasudevan College of Engineering and Technology, Chennai. Seeking a software development internship.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%234f46e5'/><text x='50%' y='68%' font-size='60' font-weight='800' fill='white' text-anchor='middle' font-family='sans-serif'>Y</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: #0f172a;
+      --border: #1e293b;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --accent: #6366f1;
+      --accent-cyan: #06b6d4;
+      --accent-emerald: #10b981;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1rem 4rem;
+    }
+
+    .top-actions {
+      max-width: 820px;
+      margin: 0 auto 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .back-link {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      transition: color 0.2s;
+    }
+
+    .back-link:hover {
+      color: #38bdf8;
+      text-decoration: underline;
+    }
+
+    .print-btn {
+      background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
+      color: #fff;
+      border: none;
+      padding: 0.65rem 1.25rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      box-shadow: 0 4px 14px rgba(79, 70, 229, 0.4);
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+
+    .print-btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(79, 70, 229, 0.6);
+    }
+
+    .resume-container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 3rem 2.5rem;
+      box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.6);
+    }
+
+    .resume-header {
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 1.5rem;
+      margin-bottom: 1.75rem;
+    }
+
+    .resume-name {
+      font-size: 2.1rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+      margin-bottom: 0.25rem;
+    }
+
+    .resume-contact-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem 1rem;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      align-items: center;
+      margin-top: 0.5rem;
+    }
+
+    .resume-contact-bar a {
+      color: var(--text);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+
+    .resume-contact-bar a:hover {
+      color: var(--accent-cyan);
+      text-decoration: underline;
+    }
+
+    .section-title {
+      font-size: 1.1rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--accent-cyan);
+      margin: 1.75rem 0 0.85rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.4rem;
+    }
+
+    .section-content {
+      font-size: 0.95rem;
+      color: #cbd5e1;
+      line-height: 1.65;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      font-weight: 700;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .item-title {
+      font-size: 1.05rem;
+      color: #ffffff;
+    }
+
+    .item-meta {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.88rem;
+      color: var(--accent-cyan);
+    }
+
+    .item-sub {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .cgpa-pill {
+      color: var(--accent-emerald);
+      font-weight: 700;
+      font-family: 'JetBrains Mono', monospace;
+      background: rgba(16, 185, 129, 0.12);
+      padding: 2px 8px;
+      border-radius: 4px;
+      border: 1px solid rgba(16, 185, 129, 0.25);
+    }
+
+    .project-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .project-desc {
+      font-size: 0.92rem;
+      color: #e2e8f0;
+      margin-bottom: 0.5rem;
+    }
+
+    ul.bullets {
+      margin: 0;
+      padding-left: 1.25rem;
+      font-size: 0.9rem;
+      color: #cbd5e1;
+      line-height: 1.6;
+    }
+
+    ul.bullets li {
+      margin-bottom: 0.35rem;
+    }
+
+    .skills-row {
+      margin-bottom: 0.6rem;
+      font-size: 0.93rem;
+      line-height: 1.7;
+    }
+
+    .skills-row strong {
+      color: #ffffff;
+      min-width: 170px;
+      display: inline-block;
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 1rem 0.75rem;
+      }
+      .resume-container {
+        padding: 1.75rem 1.25rem;
+      }
+      .resume-name {
+        font-size: 1.65rem;
+      }
+      .skills-row strong {
+        display: block;
+        min-width: auto;
+      }
+    }
+
+    /* Print / PDF generation stylesheet */
+    @media print {
+      body {
+        background: #ffffff !important;
+        color: #111827 !important;
+        padding: 0 !important;
+        font-size: 10.5pt !important;
+      }
+      .top-actions {
+        display: none !important;
+      }
+      .resume-container {
+        max-width: 100% !important;
+        background: #ffffff !important;
+        border: none !important;
+        box-shadow: none !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+      }
+      .resume-header {
+        border-bottom: 2pt solid #0f172a !important;
+        padding-bottom: 6pt !important;
+        margin-bottom: 10pt !important;
+      }
+      .resume-name {
+        color: #0f172a !important;
+        font-size: 20pt !important;
+      }
+      .resume-contact-bar,
+      .resume-contact-bar a {
+        color: #475569 !important;
+        font-size: 9.5pt !important;
+      }
+      .section-title {
+        color: #0f172a !important;
+        font-size: 11.5pt !important;
+        font-weight: 800 !important;
+        border-bottom: 1pt solid #cbd5e1 !important;
+        padding-bottom: 2pt !important;
+        margin: 12pt 0 5pt 0 !important;
+      }
+      .section-content,
+      .project-desc,
+      ul.bullets li,
+      .skills-row {
+        color: #334155 !important;
+      }
+      .item-title {
+        color: #0f172a !important;
+        font-size: 10.5pt !important;
+      }
+      .item-meta {
+        color: #2563eb !important;
+        font-size: 9.5pt !important;
+      }
+      .cgpa-pill {
+        color: #047857 !important;
+        border: 1pt solid #a7f3d0 !important;
+        background: #ecfdf5 !important;
+      }
+      .skills-row strong {
+        color: #0f172a !important;
+      }
+      .project-item {
+        page-break-inside: avoid;
+        margin-bottom: 10pt !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="top-actions">
+    <a href="index.html" class="back-link">
+      <span>←</span> Back to Interactive Portfolio
+    </a>
+    <button class="print-btn" onclick="window.print()">
+      <span>🖨️</span> Print / Save PDF
+    </button>
+  </div>
+
+  <div class="resume-container">
+    <header class="resume-header">
+      <h1 class="resume-name">YOKESHWARAN S</h1>
+      <div class="resume-contact-bar">
+        <a href="mailto:yokiw803@gmail.com">yokiw803@gmail.com</a>
+        <span>•</span>
+        <a href="https://www.linkedin.com/in/yokeshwaran-s-629030301" target="_blank" rel="noopener">LinkedIn</a>
+        <span>•</span>
+        <a href="https://leetcode.com" target="_blank" rel="noopener">LeetCode</a>
+        <span>•</span>
+        <a href="https://github.com/yokiw803-hash" target="_blank" rel="noopener">GitHub</a>
+        <span>•</span>
+        <span>Chennai, Tamil Nadu, India</span>
+      </div>
+    </header>
+
+    <section>
+      <h2 class="section-title">Profile</h2>
+      <div class="section-content">
+        Computer Science and Engineering student seeking a software development internship. Skilled in Java, Python, JavaScript, TypeScript, Next.js, Node.js, Express.js, SQL, MongoDB, and Supabase. Interested in full-stack development, backend systems, local AI applications, and DevOps. Eager to apply programming fundamentals and build reliable user-focused software in a collaborative team.
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Education</h2>
+      <div class="item-header">
+        <span class="item-title">Bachelor of Engineering in Computer Science and Engineering</span>
+        <span class="item-meta">2024 – 2028</span>
+      </div>
+      <div class="item-sub">
+        <span>Prince Dr. K. Vasudevan College of Engineering and Technology, Chennai</span>
+        <span class="cgpa-pill">CGPA: 7.1 / 10</span>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Selected Projects</h2>
+
+      <!-- CareerPilot -->
+      <div class="project-item">
+        <div class="item-header">
+          <span class="item-title">CareerPilot</span>
+          <span class="item-meta">Next.js, React, TypeScript, Tailwind CSS, Supabase, Gemini API</span>
+        </div>
+        <p class="project-desc">
+          AI-assisted career-preparation platform planned for resume review, mock interviews, coding assessments, and personalized feedback. In development.
+        </p>
+        <ul class="bullets">
+          <li>Designing candidate, recruiter, and administrator dashboards with authentication, file storage, and role-based workflows.</li>
+          <li>Planning ATS-oriented resume scoring and interview-readiness feedback as part of the candidate journey.</li>
+        </ul>
+      </div>
+
+      <!-- TypeVerse -->
+      <div class="project-item">
+        <div class="item-header">
+          <span class="item-title">TypeVerse</span>
+          <span class="item-meta">Next.js, React, TypeScript, Tailwind CSS, Supabase</span>
+        </div>
+        <p class="project-desc">
+          Typing-practice platform planned around difficulty levels, daily challenges, progress tracking, multiplayer races, and leaderboards. In development.
+        </p>
+        <ul class="bullets">
+          <li>Developing a responsive learning experience with gamification and real-time features using Supabase.</li>
+          <li>Defining performance tracking around typing speed, accuracy, daily challenges, and leaderboard participation.</li>
+        </ul>
+      </div>
+
+      <!-- Groot -->
+      <div class="project-item">
+        <div class="item-header">
+          <span class="item-title">Groot</span>
+          <span class="item-meta">Python, Ollama, Qwen 2.5, JSON, Regex, OS, Subprocess</span>
+        </div>
+        <p class="project-desc">
+          Privacy-focused local personal AI assistant concept designed to run local models, retain user memories, and support computer-command automation. In development.
+        </p>
+        <ul class="bullets">
+          <li>Exploring offline AI workflows with JSON-based memory and planned voice input and text-to-speech support.</li>
+          <li>Focusing on private, local-first interaction rather than relying on external AI APIs.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-row">
+        <strong>Languages:</strong> Java, Python, JavaScript, TypeScript, C, HTML, CSS
+      </div>
+      <div class="skills-row">
+        <strong>Frameworks & Tools:</strong> Next.js, Node.js, Express.js, React, Tailwind CSS, Ollama
+      </div>
+      <div class="skills-row">
+        <strong>Databases & Services:</strong> MongoDB, MySQL, Supabase
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Leadership and Activities</h2>
+      <div class="item-header">
+        <span class="item-title">Member, DevOps Club</span>
+        <span class="item-meta">College Technical Club</span>
+      </div>
+      <ul class="bullets" style="margin-top: 0.35rem;">
+        <li>Participate in peer learning and technical activities focused on development and DevOps practices.</li>
+        <li>Engage with fellow students on tools, deployment concepts, and collaborative technical learning.</li>
+      </ul>
+    </section>
+  </div>
+
+</body>
+</html>
