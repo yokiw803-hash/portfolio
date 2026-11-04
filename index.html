@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yokeshwaran | Aspiring Software Engineer & Full-Stack Developer</title>
+  <meta name="description" content="Portfolio of Yokeshwaran, 3rd year B.E CSE student at Prince Dr. K. Vasudevan College of Engineering and Technology, Chennai. Aspiring Software Engineer and Full-Stack Developer skilled in Python, Java, React, Next.js, Node.js, MySQL, Supabase, and AWS.">
+  <meta name="keywords" content="Yokeshwaran, Software Engineer, Full Stack Developer, Computer Science, Chennai, React, Next.js, Node.js, Python, Java, Groot AI, Typeverse, Careerpilot">
+  <meta name="author" content="Yokeshwaran">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Yokeshwaran | Aspiring Software Engineer & Full-Stack Developer">
+  <meta property="og:description" content="3rd year B.E CSE student at Prince Dr. K. Vasudevan College of Engg & Tech, Chennai. Creator of Groot AI, Typeverse, and Careerpilot.">
+  <meta property="og:image" content="assets/images/avatar.jpg">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366f1'/><text x='50%' y='68%' font-size='60' font-weight='800' fill='white' text-anchor='middle' font-family='sans-serif'>Y</text></svg>">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/components.css">
+
+  <!-- Structured Data JSON-LD for Search Engines -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Yokeshwaran",
+    "jobTitle": "Aspiring Software Engineer & Full-Stack Developer",
+    "email": "yokiw803@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Chennai",
+      "addressRegion": "Tamil Nadu",
+      "addressCountry": "India"
+    },
+    "alumniOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Prince Dr. K. Vasudevan College of Engineering and Technology"
+    },
+    "knowsAbout": ["Python", "Java", "JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Express.js", "MySQL", "Supabase", "AWS"]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Ambient Dynamic Lighting & Canvas Background -->
+  <div class="ambient-light ambient-light-1"></div>
+  <div class="ambient-light ambient-light-2"></div>
+  <div class="ambient-light ambient-light-3"></div>
+  <canvas id="ambient-canvas"></canvas>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container-wide nav-container">
+      <a href="#hero" class="brand-logo" id="nav-brand">
+        <div class="logo-badge">Y</div>
+        <div class="brand-title">
+          <span class="brand-name">Yokeshwaran</span>
+          <span class="brand-status">
+            <span class="status-pulse"></span>
+            Open for Opportunities
+          </span>
+        </div>
+      </a>
+
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="cmd-k-btn" id="cmd-k-trigger" title="Quick Search & Navigation (Ctrl+K)">
+          <span>Search...</span>
+          <kbd class="cmd-shortcut">Ctrl K</kbd>
+        </button>
+
+        <button class="btn btn-sm btn-secondary open-resume-btn" id="nav-resume-btn">
+          Resume / CV
+        </button>
+
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Navigation Menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container-wide">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge-wrap">
+              <span class="section-tag">
+                <span>⚡</span> Aspiring Software Engineer / Full-Stack Developer
+              </span>
+            </div>
+
+            <h1 class="hero-headline">
+              Hello, I'm <span class="gradient-text">Yokeshwaran</span>. Crafting intelligent web apps.
+            </h1>
+
+            <div class="typing-container">
+              <span class="prompt-symbol">&gt;&nbsp;</span>
+              <span id="typing-text">Aspiring Software Engineer</span>
+              <span class="typing-cursor"></span>
+            </div>
+
+            <p class="hero-bio">
+              3rd year B.E. Computer Science and Engineering student at <strong>Prince Dr. K. Vasudevan College of Engineering and Technology</strong>, Chennai. Driven by an ambition to become a world-class Software Engineer, building applications with React, Next.js, Node.js, Python, Java, MySQL, and Supabase.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="#projects" class="btn btn-primary" id="hero-btn-projects">
+                <span>View My Projects</span>
+                <span>↓</span>
+              </a>
+              <a href="#contact" class="btn btn-secondary" id="hero-btn-contact">
+                <span>Get in Touch</span>
+                <span>✉</span>
+              </a>
+              <button class="btn btn-outline-cyan open-resume-btn" id="hero-btn-resume">
+                <span>View Resume</span>
+                <span>↗</span>
+              </button>
+            </div>
+
+            <div class="hero-stats-row">
+              <div class="stat-item">
+                <span class="stat-number">3<span class="accent">rd</span></span>
+                <span class="stat-label">Year B.E. CSE</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">3<span class="accent">+</span></span>
+                <span class="stat-label">Active Projects (Ongoing)</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">10<span class="accent">+</span></span>
+                <span class="stat-label">Tech Skills Mastered</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">100<span class="accent">%</span></span>
+                <span class="stat-label">Drive & Dedication</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Developer Sandbox Card -->
+          <div class="hero-code-card">
+            <div class="card-topbar">
+              <div class="window-dots">
+                <span class="dot-red"></span>
+                <span class="dot-yellow"></span>
+                <span class="dot-green"></span>
+              </div>
+
+              <div class="card-tabs">
+                <button class="card-tab active" data-file="Developer.ts">Developer.ts</button>
+                <button class="card-tab" data-file="profile.json">profile.json</button>
+                <button class="card-tab" data-file="stack.config">stack.config</button>
+              </div>
+
+              <div class="card-actions-right">
+                <button class="run-code-btn" id="run-code-btn" title="Simulate Execution">
+                  ▶ Run Code
+                </button>
+              </div>
+            </div>
+
+            <div class="code-content-box">
+              <pre><code id="sandbox-code"><span class="t-keyword">import</span> { <span class="t-type">ComputerScienceStudent</span>, <span class="t-type">FullStackDeveloper</span> } <span class="t-keyword">from</span> <span class="t-string">'@chennai/tech'</span>;
+
+<span class="t-keyword">export class</span> <span class="t-type">Yokeshwaran</span> <span class="t-keyword">implements</span> <span class="t-type">FullStackDeveloper</span> {
+  <span class="t-keyword">readonly</span> <span class="t-prop">name</span>: <span class="t-type">string</span> = <span class="t-string">'Yokeshwaran'</span>;
+  <span class="t-keyword">readonly</span> <span class="t-prop">education</span>: <span class="t-type">string</span> = <span class="t-string">'3rd Year B.E. CSE'</span>;
+  <span class="t-keyword">readonly</span> <span class="t-prop">college</span>: <span class="t-type">string</span> = <span class="t-string">'Prince Dr.K.Vasudevan College of Engg & Tech'</span>;
+  <span class="t-keyword">readonly</span> <span class="t-prop">location</span>: <span class="t-type">string</span> = <span class="t-string">'Chennai, India'</span>;
+  <span class="t-keyword">readonly</span> <span class="t-prop">ambition</span>: <span class="t-type">string</span> = <span class="t-string">'Software Engineer / Full-Stack Developer'</span>;
+
+  <span class="t-keyword">readonly</span> <span class="t-prop">skills</span> = {
+    <span class="t-prop">languages</span>: [<span class="t-string">'Python'</span>, <span class="t-string">'Java'</span>, <span class="t-string">'JavaScript'</span>, <span class="t-string">'TypeScript'</span>, <span class="t-string">'HTML/CSS'</span>, <span class="t-string">'SQL'</span>],
+    <span class="t-prop">frameworks</span>: [<span class="t-string">'React'</span>, <span class="t-string">'Next.js'</span>, <span class="t-string">'Node.js'</span>, <span class="t-string">'Express.js'</span>],
+    <span class="t-prop">databases</span>: [<span class="t-string">'MySQL'</span>, <span class="t-string">'Supabase'</span>],
+    <span class="t-prop">cloud</span>: [<span class="t-string">'AWS (Foundational)'</span>, <span class="t-string">'Git/GitHub'</span>]
+  };
+
+  <span class="t-keyword">async</span> <span class="t-func">launchProjects</span>() {
+    <span class="t-keyword">return</span> [
+      <span class="t-string">'Groot AI'</span>,     <span class="t-comment">// Intelligent AI Assistant</span>
+      <span class="t-string">'Typeverse'</span>,    <span class="t-comment">// Developer Typing Speed Arena</span>
+      <span class="t-string">'Careerpilot'</span>   <span class="t-comment">// Placement & Career Navigation</span>
+    ];
+  }
+}</code></pre>
+              <div class="terminal-output" id="terminal-output"></div>
+            </div>
+
+            <div class="developer-profile-float">
+              <img src="assets/images/avatar.jpg" alt="Yokeshwaran - Computer Science Student & Developer" class="profile-avatar-thumb">
+              <div class="profile-info">
+                <h4>Yokeshwaran</h4>
+                <p>Prince Dr. K. Vasudevan College of Engg & Tech • Chennai</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. About & Engineering Philosophy -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2 class="section-title">Driven by <span class="gradient-text">Curiosity & Code</span></h2>
+          <p class="section-desc">
+            Computer Science student based in Chennai, transforming ideas into responsive, functional web software.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-photo-wrapper">
+            <div class="about-glow-frame"></div>
+            <img src="assets/images/avatar.jpg" alt="Yokeshwaran Portrait" class="about-image">
+            <div class="experience-tag-badge">
+              <span class="badge-icon">🎓</span>
+              <div>
+                <div class="badge-title">Education</div>
+                <div class="badge-val">3rd Year B.E. CSE</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-narrative">
+            <p>
+              I'm <strong>Yokeshwaran</strong>, currently pursuing my 3rd year in <strong>B.E. Computer Science and Engineering</strong> at <strong>Prince Dr. K. Vasudevan College of Engineering and Technology</strong> in Chennai.
+            </p>
+            <p>
+              My ambition is to build a thriving career as a <strong>Software Engineer / Full-Stack Developer</strong>. I love solving real-world challenges through clean, well-architected software, whether it's building interactive user interfaces with <strong>React and Next.js</strong>, architecting robust backends with <strong>Node.js and Express</strong>, or solving algorithmic problems with <strong>Python and Java</strong>.
+            </p>
+
+            <div class="pillars-grid">
+              <div class="pillar-card">
+                <span class="pillar-icon">⚛️</span>
+                <h4 class="pillar-title">Modern Full-Stack</h4>
+                <p class="pillar-desc">Building dynamic web applications with React, Next.js, Node.js, Express, and TypeScript.</p>
+              </div>
+              <div class="pillar-card">
+                <span class="pillar-icon">🐍</span>
+                <h4 class="pillar-title">Core Programming</h4>
+                <p class="pillar-desc">Strong foundation in Python and Java for object-oriented design and computational logic.</p>
+              </div>
+              <div class="pillar-card">
+                <span class="pillar-icon">🗄️</span>
+                <h4 class="pillar-title">Databases & BaaS</h4>
+                <p class="pillar-desc">Designing reliable relational databases with MySQL and modern real-time data with Supabase.</p>
+              </div>
+              <div class="pillar-card">
+                <span class="pillar-icon">☁️</span>
+                <h4 class="pillar-title">Cloud & Tools</h4>
+                <p class="pillar-desc">Foundational knowledge of Amazon Web Services (AWS), Git version control, and GitHub workflows.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Skills Matrix & Tech Stack -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Toolkit</span>
+          <h2 class="section-title">Skills & <span class="gradient-text">Technologies</span></h2>
+          <p class="section-desc">
+            Technologies I actively use to develop software, web applications, and backend systems.
+          </p>
+        </div>
+
+        <div class="skills-filter-nav">
+          <button class="skill-tab-btn active" data-category="all">All Skills</button>
+          <button class="skill-tab-btn" data-category="languages">Languages</button>
+          <button class="skill-tab-btn" data-category="frontend">Frontend</button>
+          <button class="skill-tab-btn" data-category="backend">Backend</button>
+          <button class="skill-tab-btn" data-category="database">Database & Cloud</button>
+        </div>
+
+        <div class="skills-grid" id="skills-grid">
+          <!-- Python -->
+          <div class="skill-card" data-category="languages">
+            <div class="skill-header">
+              <div class="skill-icon-wrap">🐍</div>
+              <div>
+                <h4 class="skill-name">Python</h4>
+                <span class="skill-category-badge">Core Programming</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-level-row">
+                <span>Scripting & Algorithms</span>
+                <span>88%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" style="width: 88%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Java -->
+          <div class="skill-card" data-category="languages">
+            <div class="skill-header">
+              <div class="skill-icon-wrap">☕</div>
+              <div>
+                <h4 class="skill-name">Java</h4>
+                <span class="skill-category-badge">OOP & Data Structures</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-level-row">
+                <span>Object-Oriented Design</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" style="width: 85%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- JavaScript -->
+          <div class="skill-card" data-category="languages">
+            <div class="skill-header">
+              <div class="skill-icon-wrap">🟨</div>
+              <div>
+                <h4 class="skill-name">JavaScript</h4>
+                <span class="skill-category-badge">ESNext & Web Logic</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-level-row">
+                <span>Modern Async JS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" style="width: 90%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TypeScript -->
+          <div class="skill-card" data-category="languages">
+            <div class="skill-header">
+              <div class="skill-icon-wrap">📘</div>
+              <div>
+                <h4 class="skill-name">TypeScript</h4>
+                <span class="skill-category-badge">Type Safety</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-level-row">
+                <span>Interfaces & Types</span>
+                <span>84%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" style="width: 84%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Next.js -->
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-header">
+              <div class="skill-icon-wrap">▲</div>
+              <div>
+                <h4 class="skill-name">Next.js</h4>
+                <span class="skill-category-badge">Full-Stack React</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-level-row">
+                <span>App Router & SSR</span>
+                <span>86%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" style="width: 86%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- React -->
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-header">
+              <div class="skill-icon-wrap">⚛️</div>
+              <div>
+                <h4 class="skill-name">React</h4>
+                <span class="skill-category-badge">Frontend Library</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-level-row">
+                <span>Hooks & Component Design</span>
+                <span>88%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" style="width: 88%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Node.js & Express.js -->
+          <div class="skill-card" data-category="backend">
+            <div class="skill-header">
+              <div class="skill-icon-wrap">🟢</div>
+              <div>
+                <h4 class="skill-name">Node.js & Express.js</h4>
+                <span class="skill-category-badge">Backend REST APIs</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-level-row">
+                <span>Server & Routing</span>
+                <span>86%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" style="width: 86%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- HTML5 & CSS3 -->
+          <div class="skill-card" data-category="frontend">
+            <div class="skill-header">
+              <div class="skill-icon-wrap">🎨</div>
+              <div>
+                <h4 class="skill-name">HTML5 & CSS3</h4>
+                <span class="skill-category-badge">Responsive Layouts</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-level-row">
+                <span>Flexbox, Grid & Animation</span>
+                <span>92%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" style="width: 92%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- MySQL -->
+          <div class="skill-card" data-category="database">
+            <div class="skill-header">
+              <div class="skill-icon-wrap">🐬</div>
+              <div>
+                <h4 class="skill-name">MySQL</h4>
+                <span class="skill-category-badge">Relational Database</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-level-row">
+                <span>SQL Queries & Schema</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" style="width: 85%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Supabase -->
+          <div class="skill-card" data-category="database">
+            <div class="skill-header">
+              <div class="skill-icon-wrap">⚡</div>
+              <div>
+                <h4 class="skill-name">Supabase</h4>
+                <span class="skill-category-badge">Postgres BaaS</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-level-row">
+                <span>Auth & Realtime Database</span>
+                <span>84%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" style="width: 84%;"></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- AWS (Foundational) -->
+          <div class="skill-card" data-category="database">
+            <div class="skill-header">
+              <div class="skill-icon-wrap">☁️</div>
+              <div>
+                <h4 class="skill-name">AWS Cloud</h4>
+                <span class="skill-category-badge">Foundational Knowledge</span>
+              </div>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-level-row">
+                <span>EC2, S3 & Hosting Basics</span>
+                <span>65%</span>
+              </div>
+              <div class="skill-progress-track">
+                <div class="skill-progress-bar" style="width: 65%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Interactive Project Showcase -->
+    <section class="section" id="projects">
+      <div class="container-wide">
+        <div class="section-header">
+          <span class="section-tag">
+            <span class="pulse-amber"></span> In Active Development • Ongoing Works
+          </span>
+          <h2 class="section-title">My Flagship <span class="gradient-text">Projects</span></h2>
+          <p class="section-desc">
+            Real applications I am actively designing, architecting, and building. All project works are currently ongoing with continuous feature additions, performance tuning, and updates.
+          </p>
+        </div>
+
+        <div class="project-filter-bar">
+          <button class="project-filter-btn active" data-filter="all">All Projects (Ongoing)</button>
+          <button class="project-filter-btn" data-filter="ai">AI & Assistant</button>
+          <button class="project-filter-btn" data-filter="interactive">Interactive & Speed</button>
+          <button class="project-filter-btn" data-filter="career">Student & Placement</button>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Groot AI -->
+          <article class="project-card" data-category="ai">
+            <div class="project-thumb-box open-case-study" data-project="groot-ai">
+              <img src="assets/images/project-groot.jpg" alt="Groot AI Intelligent Assistant" class="project-img">
+              <div class="project-overlay">
+                <span class="status-ongoing-badge"><span class="pulse-amber"></span> Project Work Ongoing</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">
+                <span>Groot AI</span>
+                <span class="status-ongoing-badge"><span class="pulse-amber"></span> In Progress</span>
+              </h3>
+              <p class="project-desc">
+                An intelligent conversational AI assistant built for code optimization, smart summarization, and interactive developer queries with persistent history via Supabase. <em>(Actively in development)</em>
+              </p>
+              <div class="project-tags">
+                <span class="tag-pill">React</span>
+                <span class="tag-pill">Next.js</span>
+                <span class="tag-pill">Python</span>
+                <span class="tag-pill">Node.js</span>
+                <span class="tag-pill">Supabase</span>
+                <span class="tag-pill">Express.js</span>
+              </div>
+              <div class="project-footer">
+                <button class="btn btn-sm btn-outline-cyan open-case-study" data-project="groot-ai">
+                  View Architecture & Details ↗
+                </button>
+                <div class="project-links">
+                  <a href="#projects" class="project-link-btn open-case-study" data-project="groot-ai">Case Study</a>
+                  <a href="https://github.com" target="_blank" rel="noopener" class="project-link-btn">Code ↗</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: TypeVerse -->
+          <article class="project-card" data-category="interactive">
+            <div class="project-thumb-box open-case-study" data-project="typeverse">
+              <img src="assets/images/project-typeverse.png" alt="TypeVerse - Type Faster. Think Smarter." class="project-img">
+              <div class="project-overlay">
+                <span class="status-ongoing-badge"><span class="pulse-amber"></span> Project Work Ongoing</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">
+                <span>TypeVerse</span>
+                <span class="status-ongoing-badge"><span class="pulse-amber"></span> In Progress</span>
+              </h3>
+              <p class="project-desc">
+                <strong>Type Faster. Think Smarter.</strong> Unlock your true typing potential with TypeVerse. Scientifically designed challenges, real-time feedback, and beautiful visualizations to help you type like a pro. <em>(Actively in development)</em>
+              </p>
+              <div class="project-tags">
+                <span class="tag-pill">React</span>
+                <span class="tag-pill">TypeScript</span>
+                <span class="tag-pill">Next.js</span>
+                <span class="tag-pill">HTML5/CSS3</span>
+                <span class="tag-pill">Real-time Telemetry</span>
+              </div>
+              <div class="project-footer">
+                <button class="btn btn-sm btn-outline-cyan open-case-study" data-project="typeverse">
+                  View Architecture & Details ↗
+                </button>
+                <div class="project-links">
+                  <a href="#projects" class="project-link-btn open-case-study" data-project="typeverse">Case Study</a>
+                  <a href="https://github.com" target="_blank" rel="noopener" class="project-link-btn">Code ↗</a>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: CareerPilot -->
+          <article class="project-card" data-category="career">
+            <div class="project-thumb-box open-case-study" data-project="careerpilot">
+              <img src="assets/images/project-careerpilot.png" alt="CareerPilot - Master Your Interview Skills" class="project-img">
+              <div class="project-overlay">
+                <span class="status-ongoing-badge"><span class="pulse-amber"></span> Project Work Ongoing</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">
+                <span>CareerPilot</span>
+                <span class="status-ongoing-badge"><span class="pulse-amber"></span> In Progress</span>
+              </h3>
+              <p class="project-desc">
+                <strong>Master Your Interview Skills.</strong> AI-powered interview coach that provides real-time feedback, helps candidates practice with realistic scenarios, and boosts confidence for tech placements. <em>(Actively in development)</em>
+              </p>
+              <div class="project-tags">
+                <span class="tag-pill">Next.js</span>
+                <span class="tag-pill">Express.js</span>
+                <span class="tag-pill">MySQL</span>
+                <span class="tag-pill">Supabase</span>
+                <span class="tag-pill">AI Audio Coach</span>
+              </div>
+              <div class="project-footer">
+                <button class="btn btn-sm btn-outline-cyan open-case-study" data-project="careerpilot">
+                  View Architecture & Details ↗
+                </button>
+                <div class="project-links">
+                  <a href="#projects" class="project-link-btn open-case-study" data-project="careerpilot">Case Study</a>
+                  <a href="https://github.com" target="_blank" rel="noopener" class="project-link-btn">Code ↗</a>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Career & Education Timeline -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Journey</span>
+          <h2 class="section-title">Education & <span class="gradient-text">Milestones</span></h2>
+          <p class="section-desc">
+            My academic progression and ongoing journey as a Computer Science student and software builder.
+          </p>
+        </div>
+
+        <div class="timeline-wrapper">
+          <div class="timeline-line"></div>
+
+          <!-- College -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">B.E. Computer Science and Engineering (3rd Year)</h3>
+                  <div class="timeline-company">Prince Dr. K. Vasudevan College of Engineering and Technology</div>
+                </div>
+                <span class="timeline-period">2023 — 2027 (Ongoing)</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Currently pursuing 3rd year in CSE with a strong focus on Data Structures, Algorithms, Database Management Systems, and Web Engineering.</li>
+                <li>Actively building full-stack applications and exploring modern technologies outside the classroom curriculum.</li>
+                <li>Location: Chennai, Tamil Nadu, India.</li>
+              </ul>
+              <div class="timeline-tech-stack">
+                <span class="tag-pill">Data Structures</span>
+                <span class="tag-pill">Algorithms</span>
+                <span class="tag-pill">Java</span>
+                <span class="tag-pill">Python</span>
+                <span class="tag-pill">DBMS / MySQL</span>
+                <span class="tag-pill">Operating Systems</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project Builder Journey -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Full-Stack Project Development</h3>
+                  <div class="timeline-company">Independent Software Projects</div>
+                </div>
+                <span class="timeline-period">2024 — Present</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Architected and launched <strong>Groot AI</strong>, an AI-powered conversational assistant with persistent Supabase history.</li>
+                <li>Built <strong>Typeverse</strong>, a real-time developer typing test platform calculating live WPM and keystroke accuracy.</li>
+                <li>Created <strong>Careerpilot</strong>, an interview preparation roadmap platform for college students with MySQL and Express backend.</li>
+              </ul>
+              <div class="timeline-tech-stack">
+                <span class="tag-pill">React</span>
+                <span class="tag-pill">Next.js</span>
+                <span class="tag-pill">Node.js</span>
+                <span class="tag-pill">Express.js</span>
+                <span class="tag-pill">Supabase</span>
+                <span class="tag-pill">MySQL</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Foundation -->
+          <div class="timeline-item">
+            <div class="timeline-node"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Core Programming & Cloud Fundamentals</h3>
+                  <div class="timeline-company">Self-Directed Learning & Practice</div>
+                </div>
+                <span class="timeline-period">2023 — 2024</span>
+              </div>
+              <ul class="timeline-bullets">
+                <li>Mastered Object-Oriented Programming (OOP) in Java and Python.</li>
+                <li>Gained hands-on foundational knowledge of AWS cloud services (EC2, S3) and Git version control workflows.</li>
+              </ul>
+              <div class="timeline-tech-stack">
+                <span class="tag-pill">Python</span>
+                <span class="tag-pill">Java</span>
+                <span class="tag-pill">HTML & CSS</span>
+                <span class="tag-pill">AWS Basics</span>
+                <span class="tag-pill">Git & GitHub</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Interactive Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Get in <span class="gradient-text">Touch with Me</span></h2>
+          <p class="section-desc">
+            Open for internships, full-time software engineering roles, hackathon collaborations, and tech discussions.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Info Card -->
+          <div class="contact-info-card">
+            <h3 style="font-size: 1.4rem; margin-bottom: 0.75rem;">Direct Channels</h3>
+            <p style="font-size: 0.95rem; line-height: 1.6; margin-bottom: 1.5rem;">
+              Whether you're looking for an enthusiastic Full-Stack Developer intern, have an opportunity, or want to collaborate on projects, feel free to reach out directly.
+            </p>
+
+            <div class="contact-channels">
+              <div class="contact-channel-item">
+                <div class="channel-left">
+                  <span class="channel-icon">✉️</span>
+                  <div>
+                    <div class="channel-label">Email Address</div>
+                    <div class="channel-value">yokiw803@gmail.com</div>
+                  </div>
+                </div>
+                <button class="copy-btn copy-email-btn" title="Copy email address">
+                  Copy
+                </button>
+              </div>
+
+              <div class="contact-channel-item">
+                <div class="channel-left">
+                  <span class="channel-icon">📍</span>
+                  <div>
+                    <div class="channel-label">Location</div>
+                    <div class="channel-value">Chennai, Tamil Nadu, India</div>
+                  </div>
+                </div>
+                <span style="font-size: 0.75rem; color: var(--accent-emerald); font-family: var(--font-mono);">
+                  Local / Remote
+                </span>
+              </div>
+
+              <div class="contact-channel-item">
+                <div class="channel-left">
+                  <span class="channel-icon">💼</span>
+                  <div>
+                    <div class="channel-label">Status & Ambition</div>
+                    <div class="channel-value">Aspiring Software Engineer</div>
+                  </div>
+                </div>
+                <span style="font-size: 0.75rem; color: var(--accent-cyan); font-family: var(--font-mono);">
+                  Available
+                </span>
+              </div>
+            </div>
+
+            <div class="social-links-row">
+              <a href="https://github.com" target="_blank" rel="noopener" class="social-circle-btn" title="GitHub Profile">
+                <span>💻</span>
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener" class="social-circle-btn" title="LinkedIn Profile">
+                <span>🔗</span>
+              </a>
+              <a href="mailto:yokiw803@gmail.com" class="social-circle-btn" title="Direct Email">
+                <span>✉️</span>
+              </a>
+              <button class="social-circle-btn open-resume-btn" title="Open Resume Modal">
+                <span>📄</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Contact Form Card -->
+          <div class="contact-form-card">
+            <h3 style="font-size: 1.4rem; margin-bottom: 0.5rem;">Send a Message</h3>
+            <p style="font-size: 0.9rem; margin-bottom: 1.5rem; color: var(--text-muted);">
+              Send a note directly to Yokeshwaran. I usually respond within a few hours.
+            </p>
+
+            <form id="contact-form" action="https://formsubmit.co/yokiw803@gmail.com" method="POST">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_subject" value="New Portfolio Message from Yokeshwaran's Website">
+              <div class="form-group">
+                <label for="contact-name" class="form-label">Your Name *</label>
+                <input type="text" id="contact-name" name="name" class="form-input" placeholder="e.g. Recruiter / Collaborator" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email" class="form-label">Your Email *</label>
+                <input type="email" id="contact-email" name="email" class="form-input" placeholder="e.g. recruiter@company.com" required>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-topic" class="form-label">Opportunity or Topic</label>
+                <select id="contact-topic" name="topic" class="form-select">
+                  <option value="Internship / Full-Time Opportunity">Internship or Software Engineer Role</option>
+                  <option value="Project Collaboration">Project Collaboration / Hackathon</option>
+                  <option value="Freelance Development">Freelance Web Development</option>
+                  <option value="General Tech Talk">Networking & Tech Discussion</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message" class="form-label">Message *</label>
+                <textarea id="contact-message" name="message" class="form-textarea" placeholder="Hi Yokeshwaran, I saw your projects Groot AI, Typeverse, and Careerpilot..." required></textarea>
+                <div class="form-help">Routed directly to yokiw803@gmail.com</div>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Send Message to Yokeshwaran</span>
+                <span>🚀</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Project Case Study Modal -->
+  <div class="modal-overlay" id="case-study-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-container">
+      <button class="modal-close-btn" id="modal-close-btn" aria-label="Close Case Study">✕</button>
+      <img src="assets/images/project-groot.jpg" alt="Case Study Banner" id="modal-banner" class="modal-header-banner">
+      <div class="modal-content-body">
+        <div class="modal-meta-row">
+          <span class="section-tag" id="modal-badge">Generative AI</span>
+          <span class="status-ongoing-badge"><span class="pulse-amber"></span> In Active Development • Ongoing</span>
+        </div>
+        <h2 class="modal-title" id="modal-title">Groot AI</h2>
+        <p class="modal-text" id="modal-headline" style="font-size: 1.15rem; color: #fff; margin-bottom: 1.5rem;"></p>
+
+        <div class="modal-specs-grid">
+          <div class="spec-item">
+            <h5>Core Focus</h5>
+            <p id="modal-spec-rps">LLM API Integration</p>
+          </div>
+          <div class="spec-item">
+            <h5>Latency / Speed</h5>
+            <p id="modal-spec-lat">&lt; 450ms TTFT</p>
+          </div>
+          <div class="spec-item">
+            <h5>Database Engine</h5>
+            <p id="modal-spec-sla">Supabase Persistent</p>
+          </div>
+        </div>
+
+        <h4 class="modal-section-title"><span>📌</span> Overview & Objectives</h4>
+        <p class="modal-text" id="modal-overview"></p>
+
+        <h4 class="modal-section-title"><span>⚡</span> Architectural Blueprint</h4>
+        <ul class="timeline-bullets" id="modal-architecture-list" style="margin: 0.75rem 0 1.5rem;"></ul>
+
+        <h4 class="modal-section-title"><span>🎯</span> Engineering Challenges Solved</h4>
+        <p class="modal-text" id="modal-challenges"></p>
+
+        <h4 class="modal-section-title"><span>🛠️</span> Technologies Deployed</h4>
+        <div class="project-tags" id="modal-tags" style="margin-top: 0.75rem;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Command Palette Modal (Ctrl + K) -->
+  <div class="cmd-palette-overlay" id="cmd-palette-modal" role="dialog" aria-modal="true">
+    <div class="cmd-palette-box">
+      <div class="cmd-search-input-wrap">
+        <span class="cmd-search-icon">🔍</span>
+        <input type="text" id="cmd-search-input" class="cmd-search-input" placeholder="Type a command or jump to section..." autocomplete="off">
+        <kbd class="cmd-shortcut">ESC</kbd>
+      </div>
+
+      <ul class="cmd-items-list" id="cmd-items-list">
+        <li class="cmd-item selected" data-action="#hero">
+          <div class="cmd-item-left">
+            <span class="cmd-item-icon">⚡</span>
+            <span>Jump to Hero & Yokeshwaran Bio</span>
+          </div>
+          <span class="cmd-item-tag">Section</span>
+        </li>
+        <li class="cmd-item" data-action="#about">
+          <div class="cmd-item-left">
+            <span class="cmd-item-icon">🎓</span>
+            <span>Jump to About & College Details</span>
+          </div>
+          <span class="cmd-item-tag">Section</span>
+        </li>
+        <li class="cmd-item" data-action="#skills">
+          <div class="cmd-item-left">
+            <span class="cmd-item-icon">🛠️</span>
+            <span>View Technical Skills (Python, Java, React, Next.js, MySQL, Supabase, AWS)</span>
+          </div>
+          <span class="cmd-item-tag">Skills</span>
+        </li>
+        <li class="cmd-item" data-action="#projects">
+          <div class="cmd-item-left">
+            <span class="cmd-item-icon">🚀</span>
+            <span>Browse Projects (Groot AI, Typeverse, Careerpilot)</span>
+          </div>
+          <span class="cmd-item-tag">Projects</span>
+        </li>
+        <li class="cmd-item" data-action="#experience">
+          <div class="cmd-item-left">
+            <span class="cmd-item-icon">💼</span>
+            <span>Education at Prince Dr. K. Vasudevan College</span>
+          </div>
+          <span class="cmd-item-tag">Education</span>
+        </li>
+        <li class="cmd-item" data-action="#contact">
+          <div class="cmd-item-left">
+            <span class="cmd-item-icon">✉️</span>
+            <span>Send Message / Contact Yokeshwaran</span>
+          </div>
+          <span class="cmd-item-tag">Contact</span>
+        </li>
+        <li class="cmd-item" data-action="resume">
+          <div class="cmd-item-left">
+            <span class="cmd-item-icon">📄</span>
+            <span>Open Yokeshwaran's Printable Resume</span>
+          </div>
+          <span class="cmd-item-tag">Action</span>
+        </li>
+        <li class="cmd-item" data-action="copy-email">
+          <div class="cmd-item-left">
+            <span class="cmd-item-icon">📋</span>
+            <span>Copy yokiw803@gmail.com</span>
+          </div>
+          <span class="cmd-item-tag">Clipboard</span>
+        </li>
+      </ul>
+
+      <div class="cmd-footer">
+        <span>Navigate: <kbd>↑</kbd> <kbd>↓</kbd></span>
+        <span>Select: <kbd>Enter</kbd></span>
+        <span>Close: <kbd>Esc</kbd></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Resume Viewer Modal -->
+  <div class="modal-overlay" id="resume-modal" role="dialog" aria-modal="true">
+    <div class="modal-container" style="max-width: 820px;">
+      <button class="modal-close-btn" id="resume-close-btn" aria-label="Close Resume">✕</button>
+      <div class="resume-paper">
+        <div class="resume-header">
+          <div class="resume-title-row">
+            <div>
+              <h2 class="resume-name">Yokeshwaran</h2>
+              <div class="resume-role">Aspiring Software Engineer & Full-Stack Developer</div>
+            </div>
+            <button class="btn btn-sm btn-primary" id="print-resume-btn">
+              <span>🖨️ Print / Download PDF</span>
+            </button>
+          </div>
+          <div class="resume-contact-bar">
+            <span>yokiw803@gmail.com</span>
+            <span>•</span>
+            <span>Chennai, Tamil Nadu, India</span>
+            <span>•</span>
+            <span>github.com</span>
+          </div>
+        </div>
+
+        <h4 class="resume-section-heading">Career Objective</h4>
+        <p class="modal-text">
+          Passionate 3rd-year Computer Science and Engineering undergraduate seeking software engineering internships and full-stack developer opportunities. Skilled in building performant web applications using Python, Java, React, Next.js, Node.js, Express, MySQL, Supabase, and foundational AWS knowledge.
+        </p>
+
+        <h4 class="resume-section-heading">Education</h4>
+        <div style="margin-bottom: 1rem;">
+          <div style="display:flex; justify-content:space-between; font-weight:700;">
+            <span>B.E. Computer Science and Engineering — 3rd Year</span>
+            <span style="color:var(--accent-cyan);">2023 — 2027</span>
+          </div>
+          <p class="modal-text" style="font-size: 0.9rem; margin-top: 0.25rem;">
+            Prince Dr. K. Vasudevan College of Engineering and Technology, Chennai.
+          </p>
+        </div>
+
+        <h4 class="resume-section-heading">Technical Skills</h4>
+        <p class="modal-text" style="font-size: 0.9rem;">
+          <strong>Programming Languages:</strong> Python, Java, JavaScript, TypeScript, HTML, CSS, SQL<br>
+          <strong>Frontend:</strong> React, Next.js, HTML5, CSS3, Modern Responsive Design<br>
+          <strong>Backend & APIs:</strong> Node.js, Express.js, RESTful Architecture<br>
+          <strong>Databases & BaaS:</strong> MySQL, Supabase (PostgreSQL)<br>
+          <strong>Cloud & Tools:</strong> AWS (Foundational Knowledge), Git, GitHub, VS Code
+        </p>
+
+        <h4 class="resume-section-heading">Featured Projects</h4>
+        <div style="margin-bottom: 1.15rem;">
+          <div style="display:flex; justify-content:space-between; font-weight:700;">
+            <span>Groot AI — Intelligent AI Conversational Assistant</span>
+            <span style="color:var(--accent-cyan);">Next.js, Express, Supabase, Python</span>
+          </div>
+          <p class="modal-text" style="font-size: 0.88rem; margin-top: 0.25rem;">
+            Constructed an interactive AI assistant with prompt intelligence and persistent chat history via Supabase.
+          </p>
+        </div>
+
+        <div style="margin-bottom: 1.15rem;">
+          <div style="display:flex; justify-content:space-between; font-weight:700;">
+            <span>Typeverse — Real-Time Developer Typing Arena</span>
+            <span style="color:var(--accent-cyan);">React, TypeScript, CSS, Web Audio</span>
+          </div>
+          <p class="modal-text" style="font-size: 0.88rem; margin-top: 0.25rem;">
+            Engineered a high-precision typing speed tester with real-time WPM calculation, accuracy telemetry, and code syntax challenges.
+          </p>
+        </div>
+
+        <div style="margin-bottom: 1.15rem;">
+          <div style="display:flex; justify-content:space-between; font-weight:700;">
+            <span>Careerpilot — Student Career Roadmap & Placement Navigator</span>
+            <span style="color:var(--accent-cyan);">Next.js, Node.js, MySQL, Supabase</span>
+          </div>
+          <p class="modal-text" style="font-size: 0.88rem; margin-top: 0.25rem;">
+            Developed a comprehensive placement preparation platform featuring dynamic skill trees, question checklists, and readiness scores.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container-wide">
+      <div class="footer-top">
+        <div class="brand-logo">
+          <div class="logo-badge">Y</div>
+          <div class="brand-title">
+            <span class="brand-name">Yokeshwaran</span>
+            <span class="brand-status">3rd Year B.E. CSE • Prince Dr. K. Vasudevan College</span>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap;">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#experience" class="nav-link">Education</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <button class="back-to-top-btn" onclick="window.scrollTo({top:0, behavior:'smooth'})" title="Back to top">
+          ↑
+        </button>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © 2026 Yokeshwaran. Chennai, India. Built with clean web standards.
+        </div>
+        <div style="display: flex; gap: 1.5rem; align-items: center;">
+          <span>Local Time: <strong class="live-clock" id="live-utc-clock">00:00:00 IST</strong></span>
+          <span style="color: var(--accent-emerald);">● Ready for Opportunities</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Interactive Custom Cursor Elements -->
+  <div class="custom-cursor-dot" id="cursor-dot" aria-hidden="true"></div>
+  <div class="custom-cursor-outline" id="cursor-outline" aria-hidden="true"></div>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "developer-portfolio",
+  "version": "1.0.0",
+  "description": "High-Performance Modern Full-Stack Engineer Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve -l 3000 .",
+    "start": "npx serve -l 3000 ."
+  },
+  "keywords": ["portfolio", "software-engineer", "full-stack", "developer"],
+  "author": "Full-Stack Engineer",
+  "license": "MIT"
+}
