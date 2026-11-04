@@ -9,6 +9,7 @@ A modern, high-performance portfolio for **Yokeshwaran**, 3rd-year B.E. Computer
 - **Institution**: Prince Dr. K. Vasudevan College of Engineering and Technology, Chennai
 - **Ambition**: Software Engineer / Full-Stack Developer
 - **Email**: yokiw803@gmail.com
+- **GitHub**: [github.com/yokiw803-hash](https://github.com/yokiw803-hash)
 - **Location**: Chennai, Tamil Nadu, India
 
 ---
